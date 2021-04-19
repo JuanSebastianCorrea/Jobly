@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+        "minEmployees": {
+            "$id": "#/properties/minEmployees",
+            "type": "integer",
+            "min": 0
+        },
+        "maxEmployees": {
+            "$id": "#/properties/maxEmployees",
+            "type": "integer",
+            "min" : 0
+        },
+        "nameLike": {
+            "$id": "#/properties/nameLike",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": []
+}
